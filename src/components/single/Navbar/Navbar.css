@@ -1,0 +1,22 @@
+.navbar {
+	padding: 1rem 3rem;
+	width: min(100vw, 80rem);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	background-color: #282874;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.menu__option {
+	width: 8rem;
+	font-size: 1.25rem;
+}

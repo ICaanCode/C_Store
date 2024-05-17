@@ -1,0 +1,21 @@
+.notFoundPage {
+  margin: 3rem auto;
+  padding: 2rem;
+  width: 50rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e6fa;
+  color: #535bf2;
+}
+
+.notFoundPage__number {
+  font-size: 20rem;
+  font-weight: 700;
+  line-height: .8;
+}
+
+.notFoundPage__message {
+  margin-top: 2rem;
+  font-size: 2rem;
+}

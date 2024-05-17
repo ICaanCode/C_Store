@@ -1,0 +1,46 @@
+.cartList {
+	margin: 3rem auto;
+	width: max(50rem, 60vw);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cartList__clearCart {
+	padding: 0.5rem 1.25rem;
+	background-color: #dc143c;
+	color: #fff;
+	border: none;
+	border-radius: 0.25rem;
+	align-self: flex-end;
+}
+
+.cartList__clearCart:hover {
+	background-color: #790f24;
+	color: #eee;
+	cursor: pointer;
+}
+
+.cartList__price {
+	padding: 1rem 0;
+	font-size: 1.25rem;
+	font-weight: 700;
+	align-self: flex-end;
+	color: #282874;
+}
+
+.cartList__placeOrder {
+	margin: 1rem 0;
+	padding: 0.5rem 1.25rem;
+	border: none;
+	border-radius: 0.25rem;
+	background-color: #646cff;
+	color: #fff;
+	align-self: flex-end;
+}
+
+.cartList__placeOrder:hover {
+	background-color: #282874;
+	color: #ddd;
+	cursor: pointer;
+}

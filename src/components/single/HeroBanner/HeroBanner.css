@@ -1,0 +1,36 @@
+.heroBanner {
+  height: 70vh;
+  padding: 4rem;
+  position: relative;
+  background-color: #5858a3;
+  background-image: url("../../../assets/taras-shypka-iFSvn82XfGo-unsplash.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  text-align: start;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: #fff;
+}
+
+.heroBanner__title, .heroBanner__storeName {
+  line-height: .85;
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+.heroBanner__storeName {
+  text-shadow: -1px 0 lavender, 0 1px lavender, 1px 0 lavender, 0 -1px lavender;
+  color: #646cff;
+}
+
+.heroBanner__subtitle {
+  padding: 1.25rem 0;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.heroBanner__paragraph {
+  color: lavender;
+}

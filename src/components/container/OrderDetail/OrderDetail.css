@@ -1,0 +1,60 @@
+.orderDetail {
+  position: relative;
+	margin: 3rem auto;
+	width: 60rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.orderDetail__id {
+	font-size: 3rem;
+	font-weight: 700;
+	align-self: flex-start;
+	color: #282874;
+}
+
+.orderDetail__date {
+	color: #282874;
+	align-self: flex-start;
+}
+
+.orderDetail__table {
+	margin-top: 3rem;
+  border-collapse: collapse;
+  row-gap: 1rem;
+}
+
+.orderDetail__table__thead {
+	background-color: #282874;
+	color: #fff;
+}
+
+.orderDetail__table__thead__th, .orderDetail__table__tbody__td {
+	padding: 0.5rem;
+}
+
+.orderDetail__table__tbody__td {
+	padding: 1rem 0;
+}
+
+.orderDetail__table__tfoot__td {
+	padding: 1rem 0;
+  background-color: #7676e4;
+}
+
+.orderDetail__goBack {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.orderDetail__delete {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  color: #646cff;
+}
+
+.orderDetail__delete:hover {
+  color: #535bf2;
+}

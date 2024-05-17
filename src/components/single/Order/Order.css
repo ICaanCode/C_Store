@@ -1,0 +1,49 @@
+.order {
+  margin: 1rem;
+  padding: .5rem;
+  width: min(50rem, 60vw);
+  display: grid;
+  grid-template-columns: 1fr 8rem;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: 
+    'number number'
+    'price buttons'
+    'date buttons'
+  ;
+  text-align: start;
+  border: 1px solid #DDD;
+  border-radius: .5rem;
+}
+
+.order__number, .order__price, .order__date {
+  padding-left: 1rem;
+}
+
+.order__number {
+  grid-area: number;
+}
+.order__price {
+  grid-area: price;
+}
+.order__date {
+  grid-area: date;
+}
+.order__buttons {
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  grid-area: buttons;  
+}
+
+.order__button {
+  padding: .5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+  color: crimson;
+  border: none;
+  border-radius: 5px;
+}
