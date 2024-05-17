@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import RemoveCircleIcon from "@mui/icons-material/RemoveCircle";
 
 import { OrderContext } from "../../../context/OrderContext";
+
 import "./Order.css";
 
 export const Order = ({ order }) => {
@@ -19,7 +20,7 @@ export const Order = ({ order }) => {
 			<Link to={`/pedidos/${order.id}`}>
 				<p className="order__number">Pedido - {order.id}</p>
 			</Link>
-			<p className="order__price">Valor: ${(order.price).toFixed(2)}</p>
+			<p className="order__price">Valor: ${order.price.toFixed(2)}</p>
 			<p className="order__date">Fecha: {formattedDate}</p>
 			<div className="order__buttons">
 				<button

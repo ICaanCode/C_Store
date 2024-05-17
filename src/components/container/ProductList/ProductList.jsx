@@ -1,9 +1,12 @@
 import { useContext } from "react";
-import { ProductContext } from "../../../context/ProductContext";
+
+import { Message } from "../Message/Message";
+
 import { Card } from "../../single/Card/Card";
 
+import { ProductContext } from "../../../context/ProductContext";
+
 import "./ProductList.css";
-import { Message } from "../Message/Message";
 
 export const ProductList = () => {
 	const { products } = useContext(ProductContext);

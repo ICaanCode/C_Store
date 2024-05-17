@@ -3,10 +3,10 @@ import { Link, useParams } from "react-router-dom";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import CloseIcon from "@mui/icons-material/Close";
 
+import { Message } from "../Message/Message";
+
 import { CartContext } from "../../../context/CartContext";
 import { ProductContext } from "../../../context/ProductContext";
-
-import { Message } from "../Message/Message";
 
 import "./ProductDetail.css";
 

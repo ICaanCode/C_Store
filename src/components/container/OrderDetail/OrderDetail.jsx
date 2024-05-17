@@ -3,8 +3,9 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import CloseIcon from "@mui/icons-material/Close";
 import DeleteIcon from "@mui/icons-material/Delete";
 
-import { OrderContext } from "../../../context/OrderContext";
 import { Message } from "../Message/Message";
+
+import { OrderContext } from "../../../context/OrderContext";
 
 import "./OrderDetail.css";
 
@@ -50,8 +51,8 @@ export const OrderDetail = () => {
 								<th className="orderDetail__table__thead__th">Precio total</th>
 							</tr>
 						</thead>
+						<tbody>
 						{order.cart.map((item) => (
-							<tbody>
 								<tr className="orderDetail__table__tbody__tr">
 									<td className="orderDetail__table__tbody__td">{item.id}</td>
 									<td className="orderDetail__table__tbody__td">
@@ -67,8 +68,8 @@ export const OrderDetail = () => {
 										${computeTotal(item)}
 									</td>
 								</tr>
-							</tbody>
 						))}
+						</tbody>
 						<tfoot>
 							<tr>
 								<td className="orderDetail__table__tfoot__td" colSpan={4}>

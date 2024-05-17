@@ -1,10 +1,11 @@
 import { useContext } from "react";
 import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart";
 
+import { QuantityControl } from "../QuantityControl/QuantityControl";
+
 import { CartContext } from "../../../context/CartContext";
 
 import "./CartItem.css";
-import { QuantityControl } from "../QuantityControl/QuantityControl";
 
 export const CartItem = ({ product }) => {
 	const { removeItem } = useContext(CartContext);

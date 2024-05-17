@@ -2,8 +2,9 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 
-import "./Card.css";
 import { CartContext } from "../../../context/CartContext";
+
+import "./Card.css";
 
 export const Card = ({ product }) => {
 	const { setItemQuantity } = useContext(CartContext);

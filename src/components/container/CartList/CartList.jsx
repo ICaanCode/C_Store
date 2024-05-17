@@ -1,12 +1,14 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
+
+import { Message } from "../Message/Message";
 
 import { CartItem } from "../../single/CartItem/CartItem";
+
 import { CartContext } from "../../../context/CartContext";
-import { Message } from "../Message/Message";
 import { OrderContext } from "../../../context/OrderContext";
 
 import "./CartList.css";
-import { Link } from "react-router-dom";
 
 export const CartList = () => {
 	const { items, total, clearCart } = useContext(CartContext);

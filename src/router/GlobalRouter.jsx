@@ -2,13 +2,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { CartList } from "../components/container/CartList/CartList";
 import { Message } from "../components/container/Message/Message";
-import { NavBar } from "../components/single/Navbar/Navbar";
-import { NotFoundPage } from "../components/container/NotFound/NotFound";
+import { NotFoundPage } from "../components/container/NotFound/NotFoundPage";
 import { OrderDetail } from "../components/container/OrderDetail/OrderDetail";
 import { OrderList } from "../components/container/OrderList/OrderList";
 import { ProductDetail } from "../components/container/ProductDetail/ProductDetail";
 import { ProductList } from "../components/container/ProductList/ProductList";
 import { HeroBanner } from "../components/single/HeroBanner/HeroBanner";
+import { NavBar } from "../components/single/Navbar/Navbar";
 
 export const GlobalRouter = () => {
 	return (
@@ -64,7 +64,7 @@ export const GlobalRouter = () => {
 						</Layout>
 					}
 				/>
-				<Route 
+				<Route
 					path="*"
 					element={
 						<Layout>

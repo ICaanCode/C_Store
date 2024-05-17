@@ -1,8 +1,10 @@
 import { useContext } from "react";
 
 import { Message } from "../Message/Message";
-import { OrderContext } from "../../../context/OrderContext";
+
 import { Order } from "../../single/Order/Order";
+
+import { OrderContext } from "../../../context/OrderContext";
 
 import "./OrderList.css";
 

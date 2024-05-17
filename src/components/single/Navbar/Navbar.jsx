@@ -6,10 +6,10 @@ import "./Navbar.css";
 
 const Title = () => {
 	return (
-	<Link to="/">
-	<h1>C Store</h1>
-	</Link>
-);
+		<Link to="/">
+			<h1>C Store</h1>
+		</Link>
+	);
 };
 
 const Menu = () => {
