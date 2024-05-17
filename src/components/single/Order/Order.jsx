@@ -19,7 +19,7 @@ export const Order = ({ order }) => {
 			<Link to={`/pedidos/${order.id}`}>
 				<p className="order__number">Pedido - {order.id}</p>
 			</Link>
-			<p className="order__price">Valor: ${order.price}</p>
+			<p className="order__price">Valor: ${(order.price).toFixed(2)}</p>
 			<p className="order__date">Fecha: {formattedDate}</p>
 			<div className="order__buttons">
 				<button
